@@ -14,7 +14,7 @@
 
   <name>Dashboard Distributions Builder</name>
   <description>
-    This module builds the distribution wars for different application servers and the standalone demo as well.
+     This module builds the distribution wars for different applications servers and the standalone demo as well.
   </description>
 
   <dependencyManagement>
