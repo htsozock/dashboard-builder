@@ -9,9 +9,9 @@ else
   echo "------------------------------------------------------------------"
 
   cd ..
-  mvn clean install -P $1,jetty  $2 $3 $4
+  mvn clean install -P $1,MySQL  $2 $3 $4
 
   export MAVEN_OPTS="-Xms1024M -Xmx2048M -XX:MaxPermSize=512m -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
   cd modules/dashboard-showcase/
-  mvn jetty:run -P $1,jetty
+  mvn MySQL:run -P $1,MySQL
 fi

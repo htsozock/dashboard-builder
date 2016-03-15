@@ -274,7 +274,7 @@
             <exclude>**/*.swf</exclude>
           </excludes>
           <useDefaultExcludes>true</useDefaultExcludes>
-          <mapping>
+          <mapping> 
             <factory>SCRIPT_STYLE</factory>
             <cfg>SCRIPT_STYLE</cfg>
             <panel>SCRIPT_STYLE</panel>
